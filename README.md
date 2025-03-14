@@ -172,9 +172,10 @@ docker-compose logs -f otel-collector
 ## Monitoring Your Node
 * The dashboard displays *collective swarm data*, not individual node stats. To track your node:
 
-  1- Check the `swarm_node` logs for your node’s unique ID (e.g., `[F-d2042cff-01c9-4801-8ea7-1c1afc29c9b6]`):
+  1- Check the `swarm_node` logs for your node’s unique ID (e.g., `[F-34f0873b-1ce5-42ad-a90a-19a15c56d1ee]`):
   
-![image](https://github.com/user-attachments/assets/4bc5efa2-c9c3-4bf0-8dab-d21069c89a79)
+![gens](https://github.com/user-attachments/assets/bdbe2578-fef5-461c-923e-1de46610f9f3)
+
 
   2- Search for this ID in the dashboard data to see your node’s contributions.
 
